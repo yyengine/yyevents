@@ -1,0 +1,72 @@
+.yyeBox{
+	border-bottom:1px dotted #999999;
+	padding-bottom:12px;
+	margin-bottom:12px;
+	overflow:hidden;
+}
+
+.yyeBox .yyeHead{
+	overflow:hidden;
+}
+
+.yyeBox .yyeInnerL{
+	float:left;
+	width:50%;
+}
+
+.yyeBox .yyeInnerR{
+	float:right;
+	width:50%;
+}
+
+.yyeBox .yyeDate,
+.yyeBox .yyeCatch{
+	padding-bottom:0;
+}
+
+.yyeBox .yyeDate{
+	font-weight:bold;
+}
+
+.yyeBox table{
+	width:100%;
+}
+
+.yyeBox table th{
+	width:30%;
+	background:#EFEFEF;
+}
+
+.yyeBox table tr,
+.yyeBox table td{
+	border:1px solid #999999;
+	padding:10px;
+}
+
+/* paging */
+.yyeNav {
+	margin: 1em auto;
+	line-height:2em;
+	text-align:center;
+}
+
+.yyeNav a.page-numbers,
+.yyeNav .current {
+	padding: 2px .4em;
+	border:solid 1px #EFEFEF;
+	text-decoration:none;
+}
+
+.yyeNav a.page-numbers:hover {
+}
+
+.yyeNav .current {
+	background: #EFEFEF;
+}
+
+.yyeNav .next, .yyeNav .prev {
+	border:0 none;
+	background:transparent;
+	text-decoration:underline;
+}
+
